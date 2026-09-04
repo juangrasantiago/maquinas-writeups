@@ -86,5 +86,69 @@
     "so": "Linux",
     "resumen": "Explotación de Joomla vulnerable vía API expuesta, dump de credenciales con MySQL y John the Ripper, RCE por plantilla de administrador y escalada abusando de un script Ruby con sudo",
     "writeup": "dockerlabs/vulnerame/writeup.md"
+  },
+  {
+    "nombre": "Blog",
+    "plataforma": "TryHackMe",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Enumeración SMB con Metasploit, ataque a WordPress con WPScan y explotación del exploit Crop-image (WordPress 5.0)",
+    "writeup": "tryhackme/blog/writeup.md"
+  },
+  {
+    "nombre": "Blue",
+    "plataforma": "TryHackMe",
+    "dificultad": "",
+    "so": "Windows",
+    "resumen": "Explotación de MS17-010 (EternalBlue) vía Metasploit y escalada a NT AUTHORITY\\SYSTEM con shell_to_meterpreter",
+    "writeup": "tryhackme/blue/writeup.md"
+  },
+  {
+    "nombre": "Chill Hack",
+    "plataforma": "TryHackMe",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "RCE por panel de comandos, esteganografía con steghide, cracking de hash con John y escalada de privilegios abusando del grupo docker",
+    "writeup": "tryhackme/chill-hack/writeup.md"
+  },
+  {
+    "nombre": "Ignite",
+    "plataforma": "TryHackMe",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Bypass con credenciales por defecto en Fuel CMS, subida de reverse shell vía zip y escalada leyendo credenciales de database.php",
+    "writeup": "tryhackme/ignite/writeup.md"
+  },
+  {
+    "nombre": "Pepìnillo Rick",
+    "plataforma": "TryHackMe",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Bypass de un panel restringido de comandos, reverse shell y escalada de privilegios abusando de sudo sin contraseña",
+    "writeup": "tryhackme/pepinillo-rick/writeup.md"
+  },
+  {
+    "nombre": "Startup",
+    "plataforma": "TryHackMe",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "FTP anónimo con subida de PHP, análisis de un .pcap con Wireshark para robar credenciales y escalada vía script modificable",
+    "writeup": "tryhackme/startup/writeup.md"
+  },
+  {
+    "nombre": "WalkingCMS",
+    "plataforma": "TryHackMe",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Fuerza bruta a WordPress con WPScan, RCE vía Theme Editor y escalada abusando del binario env (GTFOBins)",
+    "writeup": "tryhackme/walkingcms/writeup.md"
+  },
+  {
+    "nombre": "Cap",
+    "plataforma": "HackTheBox",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Análisis de una captura de tráfico expuesta para robar credenciales y escalada abusando de capabilities de python3.8",
+    "writeup": "hackthebox/cap/writeup.md"
   }
 ]
