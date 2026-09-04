@@ -1,0 +1,66 @@
+[
+  {
+    "nombre": "Backend",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Laboratorio para practicar inyección SQL con sqlmap para volcar credenciales y acceder por SSH",
+    "writeup": "dockerlabs/backend/writeup.md"
+  },
+  {
+    "nombre": "FindYourStyle",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Explotación de Drupal mediante CVE-2018-7600 y escalada de privilegios vía binario su",
+    "writeup": "dockerlabs/find-your-style/writeup.md"
+  },
+  {
+    "nombre": "Library",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Explotación de la vulnerabilidad Python Library Hijacking para escalar a root",
+    "writeup": "dockerlabs/library/writeup.md"
+  },
+  {
+    "nombre": "Mirame",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Bypass de autenticación e inyección SQL, esteganografía con steghide/stegseek y escalada vía GTFOBins (find)",
+    "writeup": "dockerlabs/mirame/writeup.md"
+  },
+  {
+    "nombre": "hannah_coffee",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "LFI encadenado con FTP Log Poisoning para RCE, escalada vía sudo y binarios con capabilities",
+    "writeup": "dockerlabs/hannah-coffee/writeup.md"
+  },
+  {
+    "nombre": "Trust",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Fuerza bruta SSH con hydra y escalada de privilegios abusando de vim con sudo (GTFOBins)",
+    "writeup": "dockerlabs/trust/writeup.md"
+  },
+  {
+    "nombre": "BreakMySSH",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Enumeración de usuarios SSH desde Metasploit y fuerza bruta con hydra para acceso root directo",
+    "writeup": "dockerlabs/breakmyssh/writeup.md"
+  },
+  {
+    "nombre": "AnonymousPingu",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Acceso FTP anónimo con subida de reverse shell PHP y escalada encadenada por varios usuarios vía GTFOBins",
+    "writeup": "dockerlabs/anonymouspingu/writeup.md"
+  }
+]
