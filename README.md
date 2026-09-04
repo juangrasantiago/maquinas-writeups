@@ -22,7 +22,21 @@ Repositorio con los write-ups de las máquinas vulnerables que he ido resolviend
 
 ### TryHackMe
 
-_Pendiente de migrar._
+| Máquina | SO | Resumen | Write-up |
+|---|---|---|---|
+| Blog | Linux | Enumeración SMB con Metasploit, ataque a WordPress con WPScan y explotación del exploit Crop-image (WP 5.0) | [Ver write-up](tryhackme/blog/writeup.md) |
+| Blue | Windows | Explotación de MS17-010 (EternalBlue) vía Metasploit y escalada a NT AUTHORITY\SYSTEM | [Ver write-up](tryhackme/blue/writeup.md) |
+| Chill Hack | Linux | RCE por panel de comandos, esteganografía con steghide, cracking con John y escalada abusando del grupo docker | [Ver write-up](tryhackme/chill-hack/writeup.md) |
+| Ignite | Linux | Bypass con credenciales por defecto en Fuel CMS, subida de reverse shell vía zip y escalada leyendo credenciales de database.php | [Ver write-up](tryhackme/ignite/writeup.md) |
+| Pepìnillo Rick | Linux | Bypass de panel restringido de comandos, reverse shell y escalada abusando de sudo sin contraseña | [Ver write-up](tryhackme/pepinillo-rick/writeup.md) |
+| Startup | Linux | FTP anónimo con subida de PHP, análisis de un .pcap con Wireshark para robar credenciales y escalada vía script modificable | [Ver write-up](tryhackme/startup/writeup.md) |
+| WalkingCMS | Linux | Fuerza bruta a WordPress con WPScan, RCE vía Theme Editor y escalada abusando del binario env (GTFOBins) | [Ver write-up](tryhackme/walkingcms/writeup.md) |
+
+### HackTheBox
+
+| Máquina | SO | Resumen | Write-up |
+|---|---|---|---|
+| Cap | Linux | Análisis de una captura de tráfico expuesta para robar credenciales y escalada abusando de capabilities de python3.8 | [Ver write-up](hackthebox/cap/writeup.md) |
 
 ## 📁 Estructura del repositorio
 
@@ -34,7 +48,11 @@ maquinas-writeups/
 │   └── nombre-maquina/
 │       ├── writeup.md
 │       └── screenshots/
-└── tryhackme/
+├── tryhackme/
+│   └── nombre-maquina/
+│       ├── writeup.md
+│       └── screenshots/
+└── hackthebox/
     └── nombre-maquina/
         ├── writeup.md
         └── screenshots/
@@ -57,4 +75,4 @@ Este repositorio forma parte de mi portfolio de ciberseguridad, junto con mis he
 
 ## ⚠️ Disclaimer
 
-Todas las máquinas resueltas pertenecen a plataformas legales de práctica (DockerLabs, TryHackMe) diseñadas específicamente para entrenamiento en ciberseguridad ofensiva. Ningún contenido de este repositorio debe usarse contra sistemas sin autorización explícita.
+Todas las máquinas resueltas pertenecen a plataformas legales de práctica (DockerLabs, TryHackMe, HackTheBox) diseñadas específicamente para entrenamiento en ciberseguridad ofensiva. Ningún contenido de este repositorio debe usarse contra sistemas sin autorización explícita.
