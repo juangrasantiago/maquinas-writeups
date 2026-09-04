@@ -16,6 +16,9 @@ Repositorio con los write-ups de las máquinas vulnerables que he ido resolviend
 | Trust | Linux | Fuerza bruta SSH con hydra y escalada abusando de vim con sudo (GTFOBins) | [Ver write-up](dockerlabs/trust/writeup.md) |
 | BreakMySSH | Linux | Enumeración de usuarios SSH desde Metasploit y fuerza bruta con hydra | [Ver write-up](dockerlabs/breakmyssh/writeup.md) |
 | AnonymousPingu | Linux | FTP anónimo con subida de reverse shell PHP y escalada encadenada (GTFOBins) | [Ver write-up](dockerlabs/anonymouspingu/writeup.md) |
+| Dance-Samba | Linux | Enumeración SMB, fuerza bruta con Metasploit, SSH Key Injection y escalada encontrando credenciales de root | [Ver write-up](dockerlabs/dance-samba/writeup.md) |
+| Domain | Linux | Enumeración SMB (rpcclient, smbmap), fuerza bruta con netexec, reverse shell PHP y escalada abusando de nano con sudo (GTFOBins) | [Ver write-up](dockerlabs/domain/writeup.md) |
+| Vulnerame | Linux | Explotación de Joomla vulnerable, dump de credenciales vía MySQL, RCE por plantilla de administrador y escalada abusando de un script Ruby con sudo | [Ver write-up](dockerlabs/vulnerame/writeup.md) |
 
 ### TryHackMe
 
