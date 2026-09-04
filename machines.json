@@ -62,5 +62,29 @@
     "so": "Linux",
     "resumen": "Acceso FTP anónimo con subida de reverse shell PHP y escalada encadenada por varios usuarios vía GTFOBins",
     "writeup": "dockerlabs/anonymouspingu/writeup.md"
+  },
+  {
+    "nombre": "Dance-Samba",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Enumeración SMB con fuerza bruta por Metasploit, ataque de SSH Key Injection vía smbclient y escalada encontrando credenciales de root en /opt",
+    "writeup": "dockerlabs/dance-samba/writeup.md"
+  },
+  {
+    "nombre": "Domain",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Enumeración SMB (rpcclient, smbmap), fuerza bruta de credenciales con netexec, subida de reverse shell PHP vía SMB y escalada abusando de nano con sudo (GTFOBins)",
+    "writeup": "dockerlabs/domain/writeup.md"
+  },
+  {
+    "nombre": "Vulnerame",
+    "plataforma": "DockerLabs",
+    "dificultad": "",
+    "so": "Linux",
+    "resumen": "Explotación de Joomla vulnerable vía API expuesta, dump de credenciales con MySQL y John the Ripper, RCE por plantilla de administrador y escalada abusando de un script Ruby con sudo",
+    "writeup": "dockerlabs/vulnerame/writeup.md"
   }
 ]
